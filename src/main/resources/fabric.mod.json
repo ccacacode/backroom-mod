@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "backrooms",
+	"version": "${version}",
+	"name": "Backrooms",
+	"description": "Un mod très chelou : un bloc glitché, le noclip, et les Backrooms.",
+	"authors": [
+		"Wosk"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/backrooms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.wosk.backrooms.BackroomsMod"
+		],
+		"client": [
+			"fr.wosk.backrooms.client.BackroomsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"voicechat": "*"
+	}
+}
